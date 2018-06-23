@@ -11,11 +11,10 @@ class Employee
 		public void getdetails()
 		{
 			Scanner sc = new Scanner(System.in);
-			System.out.println("Enter Employee's Number, Employee's Salary and Employee's Name");
+			System.out.println("Enter Employee's Name , Employee's Number and Employee's Salary ");
+			name = sc.nextLine();
 			empNo = sc.nextInt();
 			sal = sc.nextInt();
-			name = sc.nextLine();
-			sc.close();
 		}
 		public String getName()
 		{
